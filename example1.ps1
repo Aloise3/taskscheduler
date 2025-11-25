@@ -1,9 +1,4 @@
-# =========================
-# Qlik GitOps Workflow
-# =========================
-# PowerShell 7+
-# Uses native .NET WebSocket (no external modules)
-# =========================
+
 
 function Request-Ticket {
     param($Server, $VirtualProxy, $UserDirectory, $UserId)
